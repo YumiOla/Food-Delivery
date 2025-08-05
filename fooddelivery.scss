@@ -1,0 +1,454 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container{
+    margin: 0 auto;
+    width: 1440px;
+    height: 1109px;
+    border: 1px solid rgb(223, 223, 223);
+}
+
+p{
+    font-family: 'Alata', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+/*Top Start*/
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 80px;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(205, 205, 205);
+}
+
+.RDM{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 252px;
+    height: 32px;
+    font-size: 10px;
+}
+
+.topfirstline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 350px;
+    height: 40px;
+}
+
+input{
+        width: 224px;
+        height: 40px;
+        border-radius: 12px;
+         border: 1px solid white;
+         background-color: rgb(222, 222, 222);
+    
+}
+
+.food{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: start;
+    align-items: flex-start;
+    width: 78px;
+    height: 39px;
+    font-size: 17px;
+    position: relative;
+    bottom: 14px;
+    left: 20px;
+    line-height: 20px;
+}
+
+.food2{
+    width: 47px;
+    height: 15px;
+}
+
+.delivery{
+    width: 78px;
+    height: 19px;
+}
+
+.mal3{
+    width: 48px;
+    height: 48px;
+    border-radius: 16px;
+    background-image: url(mal3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -10px;
+}
+
+/*Top End*/
+
+
+/*line 1*/
+
+
+.innercontainer{
+    margin: 0 auto;
+    width: 1110px;
+    height: 950px;
+    border: 0px solid black;
+}
+
+.line1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1110px;
+    height: 188px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    gap: 20px;
+}
+
+.line1box1{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 540px;
+    height: 188px;
+    background-color: rgb(243, 244, 255);
+    background-image: url(ice\ cream.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: -56px 10px;
+}
+
+.icecream {
+  width: 224px;
+  height: 229px;
+}
+
+.line1label{
+
+}
+
+.line1-mini{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+      height: 100PX;   
+      width: 210PX;   
+}
+
+.text1{
+    width: 210px;
+    height: 28px;
+    font-size: 20px;
+}
+
+.text2{
+    width: 210px;
+    height: 56px;
+    font-size: 40px;
+}
+
+.text3{
+    position: relative;
+    width: 210px;
+    height: 20px;
+    font-size: 14px;
+    top: 45px;
+}
+
+
+.line1box2{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 540px;
+    height: 188px;
+    background-color: rgb(243, 244, 255);
+    background-image: url(Burger.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 320px;
+    background-position: -56px 10px;
+}
+
+
+.text2-1{
+    width: 210px;
+    height: 28px;
+    font-size: 20px;
+}
+
+.text2-2{
+    width: 210px;
+    height: 56px;
+    font-size: 40px;
+}
+
+.text3-3{
+    position: relative;
+    width: 210px;
+    height: 20px;
+    font-size: 14px;
+    top: 45px;
+}
+
+/* line 1 end*/
+
+/* line 2 start*/
+
+.line2{
+    display: flex;
+    flex-direction: row;
+    width: 1110px;
+    height: 80px;
+    justify-content: space-between;
+}
+
+.pizza{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid rgb(105, 123, 255);
+    background-color: rgb(248, 249, 255);
+    border-radius: 16px;
+}
+
+.pizza-image{
+    position: relative;
+    top: 5px;
+    width: 24px;
+    height: 24px;
+
+}
+
+.pizza-image{
+    position: relative;
+    top: 5px;
+    width: 24px;
+    height: 24px;
+
+}
+
+/* line 2 end*/
+
+/* line 3 start*/
+
+.line3{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 1110px;
+    height: 28px;
+}
+
+/* line 3 end*/
+
+/* line 4 end*/
+
+.line4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    width: 1110px;
+    height: 582px;
+}
+
+.box1{
+    width: 350px;
+    height: 276px;
+    border: 1px solid  rgb(255, 255, 255);
+    border-top-left-radius: 13px;
+   border-top-right-radius: 13px;
+   background-color: rgb(255, 255, 255);
+   box-shadow: 0px 1px 1px 1px rgb(224, 224, 224);
+}
+
+
+
+.box1-image{
+    width: 350px;
+    height: 160px;
+   background-color: aqua;
+   background-image: url(Royal\ house.avif);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-top-left-radius: 13px;
+   border-top-right-radius: 13px;
+   
+}
+
+.box1-tag{
+    width: 318px;
+    height: 80px;
+    padding-left: 20px;
+}
+
+.featured{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 94px;
+    height: 32px;
+    position: relative;
+    font-size: 11px;
+    background-color: rgb(78, 96, 255);
+    border-top-right-radius: 13px;
+    position: relative;
+    bottom: 0px;
+    left: 257px;
+    color: white;
+}
+
+.box1-tag-container {
+    display: flex;
+    flex-direction: column;
+    width: 318px;
+    height: 46px;
+    line-height: 3px;
+    padding-top: 10px;
+}
+
+.box1-tag-royal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    height: 20px;
+    padding-top: 7px;
+}
+
+.material-symbols-outlined{
+    color: rgb(168, 168, 168);
+    
+}
+
+.date{
+    color: rgb(118, 118, 118);
+    font-size: 12px;
+}
+
+.box-mini{
+    display: flex;
+    position: relative;
+    top: 25px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 70px;
+    height: 24px;
+    font-size: 12px;
+    background-color: rgb(237, 238, 242);
+    border-radius: 100px;
+    
+}
+
+.sushi-mini{
+   width: 12px;
+   height: 12px;
+}
+.line4-inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.line4-inner2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1110px;
+    height: 278px;
+}
+
+.box2-image{
+    width: 350px;
+    height: 160px;
+   background-color: aqua;
+   background-image: url(Burgers\ &\ Pizza\ 2.avif);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-top-left-radius: 13px;
+   border-top-right-radius: 13px;
+   
+}
+
+
+.box3-image{
+    width: 350px;
+    height: 160px;
+   background-color: aqua;
+   background-image: url(Ninja\ Sushi.jpeg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-top-left-radius: 13px;
+   border-top-right-radius: 13px;
+   
+}
+
+
+.box4-image{
+    width: 350px;
+    height: 160px;
+   background-color: aqua;
+   background-image: url(Sushi\ second\ line.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-top-left-radius: 13px;
+   border-top-right-radius: 13px;
+   
+}
+
+
+
+.box5-image{
+    width: 350px;
+    height: 160px;
+   background-color: aqua;
+   background-image: url(Japan\ sushi.webp);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-top-left-radius: 13px;
+   border-top-right-radius: 13px;
+   
+}
+
+
+.box6-image{
+    width: 350px;
+    height: 160px;
+   background-color: aqua;
+   background-image: url(Sushi\ master.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-top-left-radius: 13px;
+   border-top-right-radius: 13px;
+   
+}
